@@ -298,6 +298,9 @@ footer {
     }
     .footer-menu {
         padding-left:0;
+        @include bp(xl) {
+            margin-bottom:0;
+        }
         li {
             display:inline-block;
             a {
