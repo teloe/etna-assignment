@@ -10,4 +10,4 @@ Please review the attached PNG and use best judgement in “cutting” this comp
 3. All our sites are responsive - please make completed thoughts in your build react to browser size appropriately.
 4. Optimize where you see fit.
 
-![Etna Assignment](https://github.com/teloe/etna-assignment/mock.png)
+![Etna Assignment](mock.png)
