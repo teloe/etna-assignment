@@ -308,7 +308,11 @@ footer {
     }
     .follow-wrapper {
         a {
+            display:inline-block;
             padding:0 .25rem;
+            @include bp(xs) {
+                margin-top: 1rem;
+            }
         }
         img {
             max-height: 30px;
