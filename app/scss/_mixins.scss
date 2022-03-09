@@ -1,0 +1,21 @@
+// Breakpoints
+@mixin bp($size) {
+    @if $size == xs {
+        @media only screen and (max-width: 575px) { @content; }
+    } 
+    @else if $size == sm {
+        @media only screen and (max-width: 767px) and (min-width: 576) { @content; }
+    } 
+    @else if $size == md {
+        @media only screen and (min-width: 768px) { @content; }
+    } 
+    @else if $size == lg {
+        @media only screen and (min-width: 992px) { @content; }
+    } 
+    @else if $size == xl {
+        @media only screen and (min-width: 1200px) { @content; }
+    } 
+    @else if $size == xxl {
+        @media only screen and (min-width: 1400px) { @content; }
+    }
+}
