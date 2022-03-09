@@ -41,12 +41,12 @@ function images() {
 function watch() {
     browserSync.init({
         server: {
-            baseDir: './app',
-            index: '/index.html',
+            baseDir: './',
+            index: 'index.html',
         },
     });
     gulp.watch('app/scss/**/*.scss', style);
-    gulp.watch('app/*.html').on('change', browserSync.reload);
+    gulp.watch('*.html').on('change', browserSync.reload);
     gulp.watch('app/js/**/*.js').on('change', browserSync.reload);
 }
 
